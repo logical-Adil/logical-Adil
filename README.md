@@ -1,112 +1,87 @@
 <div align="center">
-  <svg width="100%" height="250" viewBox="0 0 1000 250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <style>
-      .title { font: bold 65px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ffffff; animation: fadeIn 2s ease-in-out; }
-      .desc { font: 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a0a0a0; animation: fadeIn 3s ease-in-out; }
-      .atom { fill: #00CCFF; animation: float 6s infinite ease-in-out; opacity: 0.6; }
-      .atom-2 { fill: #7000FF; animation: float 8s infinite ease-in-out 1s; opacity: 0.5; }
-      .atom-3 { fill: #ffffff; animation: float 5s infinite ease-in-out 2s; opacity: 0.4; }
-      
-      @keyframes float {
-        0%, 100% { transform: translate(0, 0); }
-        50% { transform: translate(15px, -15px); }
-      }
-      @keyframes fadeIn {
-        from { opacity: 0; }
-        to { opacity: 1; }
-      }
-    </style>
-    
-    <defs>
-      <linearGradient id="overlay" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0%" stop-color="#000000" stop-opacity="0.8"/>
-        <stop offset="100%" stop-color="#000000" stop-opacity="0.5"/>
-      </linearGradient>
-    </defs>
-    
-    <image xlink:href="./banner.png" width="1000" height="250" preserveAspectRatio="xMidYMid slice" />
-    <rect width="1000" height="250" fill="url(#overlay)" />
-
-    <text x="500" y="110" text-anchor="middle" class="title">Adil Younas</text>
-    <text x="500" y="160" text-anchor="middle" class="desc">Full Stack Architect | Next.js | Node.js | Web3</text>
-    
-    <circle cx="150" y="80" r="10" class="atom-2" />
-    <path d="M130,80 Q150,60 170,80 Q150,100 130,80 Z" stroke="#7000FF" stroke-width="2" fill="none" class="atom-2" />
-    
-    <circle cx="850" y="150" r="8" class="atom" />
-    <circle cx="880" y="170" r="5" class="atom" />
-    <line x1="850" y1="150" x2="880" y2="170" stroke="#00CCFF" stroke-width="2" class="atom" />
-
-    <circle cx="200" y="180" r="3" class="atom-3" />
-    <circle cx="750" y="60" r="4" class="atom-3" />
-    <circle cx="300" y="50" r="2" class="atom" />
-    <circle cx="900" y="100" r="3" class="atom-2" />
-  </svg>
-
-  <a href="https://github.com/logical-Adil">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00CCFF&center=true&vCenter=true&width=600&lines=Building+Scalable+MERN+Architectures;Architecting+Secure+Financial+Systems;Optimizing+High-Performance+Web+Apps" alt="Typing SVG" />
-  </a>
+  <img src="https://i.redd.it/jl5o78zc78mf1.gif" 
+       width="70%" 
+       style="border-radius: 16px;" 
+       alt="Tech Hero Animation"/>
 </div>
 
-<br>
+<br/>
 
-<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+---
+
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <p align="center">
+          <a href="https://komarev.com/ghpvc/?username=logical-Adil">
+            <img src="https://komarev.com/ghpvc/?username=logical-Adil&label=Profile%20views&color=00FFFF&style=flat-square" alt="Adil's profile views" />
+          </a>
+        </p>
+      </td>
+      <td>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg?style=flat-square" alt="Maintained" />
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+<br/>
+
+
+# I'm **Adil Younas** <img src="https://i.ibb.co/FLs3HL9K/giphy.gif" height="30px" width="30px">
+<br/>
+
+
+**Full Stack MERN Developer** | Pakistan
+
+> Full Stack Engineer with **3+ years of experience** specializing in the **MERN Stack (MongoDB, Express, React, Node.js)**. I focus on building **high-performance Admin Dashboards**, **scalable backend architectures**, and **secure API systems**, seamlessly integrating modern Web3 features only when the logic demands it.
+
+---
+
+<table border="0" width="100%">
   <tr>
-    <td width="60%" valign="top">
-      <h3 align="left">👨‍💻 About Me</h3>
-      <img src="https://komarev.com/ghpvc/?username=logical-Adil&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile Views" />
-      <br><br>
-      A passionate <b>Full Stack Engineer</b> from Pakistan, specializing in the MERN stack and Next.js. I build the invisible engines that power high-stakes digital products, bridging complex backend logic with seamless user experiences.
-      <br><br>
-      🌱 <b>Currently focused on:</b> High-performance Next.js apps & System Automation.<br>
-      💬 <b>Ask me about:</b> TypeScript, PostgreSQL, Worker Threads, and Proxy Security.<br>
-      📫 <b>Reach me at:</b> <a href="mailto:adildev00@gmail.com">adildev00@gmail.com</a><br>
-      ⚡ <b>Fun Fact:</b> I optimize data pipelines for breakfast.
+    <td width="55%" align="center" valign="middle">
+      <h1 align="center"><img src="https://i.ibb.co/FLs3HL9K/giphy.gif" height="30px" width="30px"> Languages and Tools</h1>
+      <p align="center">
+        <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs,express,mongodb,redux,tailwind,sass,html,css,bootstrap,postgres,docker,git,figma,postman,webpack,babel,jest&perline=7" width="300px"/>
+      </p>
+      <br/>
+      <h1 align="center"><img src="https://i.ibb.co/FLs3HL9K/giphy.gif" height="30px" width="30px"> Connect with Me</h1>
+      <p align="center">
+        <a href="https://linkedin.com/in/adil-younas-25a857277" target="_blank">
+          <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Color/LinkedIN.svg" alt="LinkedIn" width="35" height="35"/>
+        </a>
+        &nbsp;
+        <a href="https://github.com/logical-Adil" target="_blank">
+          <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Color/Github.svg" alt="GitHub" width="35" height="35"/>
+        </a>
+        &nbsp;
+        <a href="mailto:adildev00@gmail.com" target="_blank">
+          <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Color/Gmail.svg" alt="Gmail" width="35" height="35"/>
+        </a>
+        &nbsp;
+        <a href="https://www.instagram.com/itsadildev00" target="_blank">
+          <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Color/Instagram.svg" alt="Instagram" width="35" height="35"/>
+        </a>
+        &nbsp;    
+      </p>
     </td>
-    <td width="40%" align="center" valign="top">
-      <img src="https://raw.githubusercontent.com/1999AZZAR/1999AZZAR/main/resources/img/coder.gif" width="85%" />
+    <td width="45%" align="right" valign="middle">
+      <img src="https://user-images.githubusercontent.com/81328619/213875785-400ae517-156b-4aca-a787-bac75d84c393.gif" 
+           width="100%" 
+           style="border-radius: 12px;" 
+           alt="Coding Animation"/>
     </td>
   </tr>
 </table>
 
-<br>
-
-<div align="center">
-  <h3>🔗 Connect With Me</h3>
-  <a href="https://linkedin.com/in/adil-younas-25a857277"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:adildev00@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/logical-Adil"><img src="https://img.shields.io/badge/Portfolio-24292e?style=for-the-badge&logo=github&logoColor=white" /></a>
-</div>
-
-<br>
-
 ---
 
 <div align="center">
-  <h3>🛠️ Languages & Tools</h3>
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,nodejs,express,mongodb,postgres,docker,git,solidity&theme=dark&perline=6" />
-</div>
-
----
-
-<br>
-
-<div align="center">
-  <h3>🔥 GitHub Analytics</h3>
-  <img src="https://github-readme-stats.vercel.app/api?username=logical-Adil&show_icons=true&theme=tokyonight&hide_border=true&title_color=00ccff&icon_color=00ccff" height="195" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=logical-Adil&theme=tokyonight&hide_border=true&fire=00ccff&ring=00ccff" height="195" />
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=logical-Adil&layout=compact&theme=tokyonight&hide_border=true&title_color=00ccff" width="400" />
-</div>
-
-<br>
-
----
-
-<div align="center">
-  <i>"Writing code that scales businesses and secures ecosystems."</i>
+  <sub>Built with 💻 and ☕ by <b>Adil Younas</b>. © 2026</sub>
 </div>
