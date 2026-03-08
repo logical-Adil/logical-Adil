@@ -1,5 +1,47 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=00ccff,7000ff,00ccff&height=250&section=header&text=Adil%20Younas&fontSize=70&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Engineer%20|%20Next.js%20|%20Node.js&descAlignY=55&descAlign=50" width="100%" />
+  <svg width="100%" height="250" viewBox="0 0 1000 250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+      .title { font: bold 65px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ffffff; animation: fadeIn 2s ease-in-out; }
+      .desc { font: 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #a0a0a0; animation: fadeIn 3s ease-in-out; }
+      .atom { fill: #00CCFF; animation: float 6s infinite ease-in-out; opacity: 0.6; }
+      .atom-2 { fill: #7000FF; animation: float 8s infinite ease-in-out 1s; opacity: 0.5; }
+      .atom-3 { fill: #ffffff; animation: float 5s infinite ease-in-out 2s; opacity: 0.4; }
+      
+      @keyframes float {
+        0%, 100% { transform: translate(0, 0); }
+        50% { transform: translate(15px, -15px); }
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+    </style>
+    
+    <defs>
+      <linearGradient id="overlay" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#000000" stop-opacity="0.8"/>
+        <stop offset="100%" stop-color="#000000" stop-opacity="0.5"/>
+      </linearGradient>
+    </defs>
+    
+    <image xlink:href="./banner.png" width="1000" height="250" preserveAspectRatio="xMidYMid slice" />
+    <rect width="1000" height="250" fill="url(#overlay)" />
+
+    <text x="500" y="110" text-anchor="middle" class="title">Adil Younas</text>
+    <text x="500" y="160" text-anchor="middle" class="desc">Full Stack Architect | Next.js | Node.js | Web3</text>
+    
+    <circle cx="150" y="80" r="10" class="atom-2" />
+    <path d="M130,80 Q150,60 170,80 Q150,100 130,80 Z" stroke="#7000FF" stroke-width="2" fill="none" class="atom-2" />
+    
+    <circle cx="850" y="150" r="8" class="atom" />
+    <circle cx="880" y="170" r="5" class="atom" />
+    <line x1="850" y1="150" x2="880" y2="170" stroke="#00CCFF" stroke-width="2" class="atom" />
+
+    <circle cx="200" y="180" r="3" class="atom-3" />
+    <circle cx="750" y="60" r="4" class="atom-3" />
+    <circle cx="300" y="50" r="2" class="atom" />
+    <circle cx="900" y="100" r="3" class="atom-2" />
+  </svg>
 
   <a href="https://github.com/logical-Adil">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00CCFF&center=true&vCenter=true&width=600&lines=Building+Scalable+MERN+Architectures;Architecting+Secure+Financial+Systems;Optimizing+High-Performance+Web+Apps" alt="Typing SVG" />
@@ -42,7 +84,6 @@
 
 <div align="center">
   <h3>🛠️ Languages & Tools</h3>
-  <p><i>Perfectly unified icons for a cleaner, professional look.</i></p>
   <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,nodejs,express,mongodb,postgres,docker,git,solidity&theme=dark&perline=6" />
 </div>
 
